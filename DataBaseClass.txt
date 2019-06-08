@@ -1,0 +1,130 @@
+
+jdbc + mysql
+
+
+
+ intermediate tools 
+ 
+  application intract database
+
+
+
+Database :collection of data (werhouse )
+	table 
+		column 
+			Data
+			
+			
+			
+school(database)
+		teacher(table)
+			id(table column: which is store teacher`s id  )
+			name
+			address
+			
+		student 
+		admin	
+Tools(provides create database)		
+ms-access
+ms-sql server
+mysql (80%)  
+sql
+oracle
+hadoop	
+
+
+
+=> How to find how many database in system/server
+
+	show databases
+
+
+=> how to create database
+	
+	create database databaseName
+	create database school;
+	
+	
+=>select database
+
+	use databaseName
+	
+=> How to find how many Table in database
+
+	show tables
+	
+=> create table  tableName (columnName columnDataType(limit) resvserd key ,columnName2 )
+		create table teacher (id int(11) primary key auto_increment, name varchar(55),address varchar(55))
+		
+		
+		
+		
+		
+		text (not lenth fixed)
+		varchar(lenth is fixed 0-255)
+		
+		
+=> retrive/fetch  data 		
+
+select *(all) from tableName
+select *(all) from teacher;
+
+=> retrive selected column
+	
+	select columnName from tableName
+	
+	select id from teacher
+	
+=>selected data retrive from table 
+
+		select * from tableName where columnName=value
+		select * from teacher where id=2
+		select * from teacher where teacher.id=2
+		
+
+=> search value in table 
+	
+	select * from teacher where id like "%samsung%"
+	
+	
+drop table tableName(delete structure data both)
+
+truncate table tableName	(delete only data)
+
+
+
+
+
+
+
+
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
